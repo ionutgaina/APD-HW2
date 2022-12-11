@@ -35,16 +35,13 @@ fi
 rm -rf build.txt
 
 no_threads=("2" "4" "4" "8" "8" "12" "16" "18" "20" "24")
-# mkdir output
 for i in `seq 0 9`
 do
 	echo ""
 	echo "======== Testul ${i} ========"
 	echo ""
-	rm -rf orders_out.txt
-	rm -rf order_products_out.txt
-
-    # mkdir output_${i}
+	# rm -rf orders_out.txt
+	# rm -rf order_products_out.txt
 
     java Tema2 input/input_${i} ${no_threads[$i]}
 
@@ -54,7 +51,7 @@ do
     sort -o order_products_out.txt order_products_out.txt
     compare_outputs output/output_${i}/order_products_out.txt order_products_out.txt
 
-	echo "OK"
+	echo "End test"
 	echo ""
 
 	echo "=========================="

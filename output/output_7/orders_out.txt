@@ -117,7 +117,6 @@ o_jy3dv0viq7,18,shipped
 o_k21d5nqeef,52,shipped
 o_k7006mzvuw,61,shipped
 o_kaj0ty1m2n,53,shipped
-o_kaj0ty1m2n,53,shipped
 o_kd1gcgnhvy,54,shipped
 o_kf3fobncf4,74,shipped
 o_kjrlnwuss4,37,shipped

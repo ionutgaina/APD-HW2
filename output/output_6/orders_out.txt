@@ -18,7 +18,6 @@ o_5qd68fr0e5,43,shipped
 o_5wjuci9qoe,25,shipped
 o_5ws0lp7blr,37,shipped
 o_5ynmvqmb3g,67,shipped
-o_5ynmvqmb3g,67,shipped
 o_61g0qjsem0,72,shipped
 o_6z2di5n3mn,5,shipped
 o_7j8nze9wqy,42,shipped
@@ -76,7 +75,6 @@ o_q3m2tb3i2u,40,shipped
 o_q6lrymwbad,61,shipped
 o_reds1ikjop,82,shipped
 o_rxt39gltyu,23,shipped
-o_s6jibma2z4,73,shipped
 o_s6jibma2z4,73,shipped
 o_sasxl4ot0h,72,shipped
 o_shwdjaurev,77,shipped

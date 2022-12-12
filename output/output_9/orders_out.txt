@@ -30,7 +30,6 @@ o_1vrvks7hti,6,shipped
 o_1wa1012lau,35,shipped
 o_23em30cih6,27,shipped
 o_23ma8sufcp,55,shipped
-o_23ma8sufcp,55,shipped
 o_24n0pawvj0,28,shipped
 o_2551dr9pt1,77,shipped
 o_25hrooudj0,68,shipped

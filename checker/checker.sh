@@ -5,7 +5,7 @@ correct=0
 # afiseaza scorul final
 function show_score {
 	echo ""
-	echo "Scor: $correct"
+	echo "Total: $correct/100"
 }
 
 # se compara output-urile din doua directoare (parametri: director1 director2 exponent)
@@ -19,7 +19,11 @@ function compare_outputs {
     fi
 }
 
+echo "VMCHECKER_TRACE_CLEANUP"
+date
+
 # se compileaza tema
+cd ../src
 make clean &> /dev/null
 make build &> build.txt
 
@@ -33,6 +37,9 @@ then
 fi
 
 rm -rf build.txt
+
+mv *.class ../checker
+cd ../checker
 
 no_threads=("2" "4" "4" "8" "8" "12" "16" "18" "20" "24")
 for i in `seq 0 9`
